@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_week1"
+    >
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        sl:scale_base_height="1280"
+        sl:scale_base_width="1000"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <Button
+            android:id="@+id/forName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/week1_firstbutton2"
+            sl:scale_height="150"
+            sl:scale_left="320"
+            sl:scale_textsize="50"
+            sl:scale_top="400"
+            sl:scale_width="400" />
+
+        <Button
+            android:id="@+id/forList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/week1_firstbutton2"
+            sl:scale_height="150"
+            sl:scale_left="320"
+            sl:scale_textsize="50"
+            sl:scale_top="630"
+            sl:scale_width="400" />
+
+        <Button
+            android:id="@+id/forSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/week1_firstbutton2"
+            sl:scale_height="150"
+            sl:scale_left="320"
+            sl:scale_textsize="50"
+            sl:scale_top="860"
+            sl:scale_width="400" />
+
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/more2"
+            android:layout_margin="5dp"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/week1_firstbutton2"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+        </com.andexert.library.RippleView>
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</android.support.constraint.ConstraintLayout>
+
