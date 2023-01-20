@@ -1,0 +1,49 @@
+.carousel-item > img {
+    height : 100vh;
+}
+
+nav{
+    z-index : 10;
+}
+
+.skill-list{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+}
+
+.sort-senter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    border-top: 1px solid #ddd;
+}
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+.f-60{
+    font-size: 60px;
+    color:rgb(9, 10, 9);
+    
+}
+
+.f-40{
+    font-size: 40px;
+    bottom : -15%;
+    color: rgb(4, 4, 63);
+}
+
+
+.bgr_b{
+    background-color: rgb(9, 11, 49);
+    color: blanchedalmond;
+}
